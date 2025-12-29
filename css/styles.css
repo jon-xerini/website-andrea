@@ -336,6 +336,13 @@ img {
     justify-content: center;
 }
 
+.profile-photo {
+    width: 250px;
+    height: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+}
+
 .image-placeholder {
     width: 250px;
     height: 300px;
@@ -624,6 +631,26 @@ img {
 .contact-placeholder {
     font-style: italic;
     opacity: 0.8;
+}
+
+.contact-item h4 {
+    color: var(--color-secondary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.contact-item a {
+    color: var(--color-white);
+    text-decoration: underline;
+}
+
+.contact-item a:hover {
+    color: var(--color-secondary-light);
+}
+
+.clinic-hours {
+    font-size: var(--font-size-sm);
+    opacity: 0.85;
+    margin-top: var(--spacing-xs);
 }
 
 .insurance-info {
