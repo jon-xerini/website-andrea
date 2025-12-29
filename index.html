@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mrs Andrea Burgess, Consultant ENT Surgeon with 25 years experience. Expert ear, nose and throat care for adults and children in Hampshire, Winchester and Southampton.">
-    <title>Mrs Andrea Burgess | ENT Consultant | Hampshire</title>
+    <meta name="description" content="Expert ENT advice and resources for adults and children. Trusted information on ear, nose and throat conditions from Mrs Andrea Burgess, Consultant ENT Surgeon in Hampshire.">
+    <title>ENT Health Resources | Mrs Andrea Burgess | Hampshire</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -14,17 +14,19 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <h1 class="site-title">Mrs Andrea Burgess</h1>
-                    <p class="site-subtitle">Consultant ENT Surgeon</p>
+                    <a href="index.html" class="logo-link">
+                        <span class="site-title">ENT Health</span>
+                        <span class="site-subtitle">Hampshire</span>
+                    </a>
                 </div>
                 <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
                     <span class="hamburger"></span>
                 </button>
                 <nav class="nav" id="nav">
                     <ul class="nav-list">
+                        <li><a href="adults.html" class="nav-link">Adults</a></li>
+                        <li><a href="children.html" class="nav-link">Children</a></li>
                         <li><a href="#about" class="nav-link">About</a></li>
-                        <li><a href="#specialities" class="nav-link">Specialities</a></li>
-                        <li><a href="#locations" class="nav-link">Locations</a></li>
                         <li><a href="#contact" class="nav-link">Contact</a></li>
                     </ul>
                 </nav>
@@ -36,180 +38,146 @@
     <section class="hero" id="hero">
         <div class="container">
             <div class="hero-content">
-                <h2 class="hero-headline">Expert ENT Care for Adults and Children in Hampshire</h2>
-                <p class="hero-text">Providing compassionate, patient-centred ear, nose and throat care with 25 years of experience. Whether you're seeking care for yourself or your child, you'll receive expert treatment tailored to your individual needs.</p>
-                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <h1 class="hero-headline">Trusted ENT Health Information & Resources</h1>
+                <p class="hero-text">Expert guidance on ear, nose and throat conditions for you and your family. Access advice sheets, understand your symptoms, and know when to seek help.</p>
+                <div class="hero-buttons">
+                    <a href="adults.html" class="btn btn-primary">Adult Resources</a>
+                    <a href="children.html" class="btn btn-secondary">Children's Resources</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- Quick Access Section -->
+    <section class="quick-access section" id="quick-access">
+        <div class="container">
+            <h2 class="section-title">Find Help for Your Symptoms</h2>
+
+            <div class="patient-cards">
+                <a href="adults.html" class="patient-card">
+                    <div class="patient-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                            <circle cx="12" cy="7" r="4"/>
+                        </svg>
+                    </div>
+                    <h3>Adults</h3>
+                    <p>Information and advice for adult ear, nose and throat conditions</p>
+                    <ul class="symptom-preview">
+                        <li>Hearing loss & tinnitus</li>
+                        <li>Sinus problems</li>
+                        <li>Voice & swallowing issues</li>
+                        <li>Snoring & sleep apnoea</li>
+                    </ul>
+                    <span class="card-link">View resources &rarr;</span>
+                </a>
+
+                <a href="children.html" class="patient-card">
+                    <div class="patient-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="5"/>
+                            <path d="M20 21a8 8 0 1 0-16 0"/>
+                        </svg>
+                    </div>
+                    <h3>Children</h3>
+                    <p>Parent-friendly guides for common childhood ENT problems</p>
+                    <ul class="symptom-preview">
+                        <li>Glue ear & hearing</li>
+                        <li>Tonsillitis & adenoids</li>
+                        <li>Ear infections</li>
+                        <li>Snoring in children</li>
+                    </ul>
+                    <span class="card-link">View resources &rarr;</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Common Conditions Quick Links -->
+    <section class="conditions-overview section" id="conditions">
+        <div class="container">
+            <h2 class="section-title">Common Conditions</h2>
+
+            <div class="conditions-tabs">
+                <div class="tab-group">
+                    <h3>Ear</h3>
+                    <ul class="condition-links">
+                        <li><a href="adults.html#hearing-loss">Hearing Loss</a></li>
+                        <li><a href="adults.html#tinnitus">Tinnitus</a></li>
+                        <li><a href="adults.html#ear-infections">Ear Infections</a></li>
+                        <li><a href="children.html#glue-ear">Glue Ear (Children)</a></li>
+                        <li><a href="adults.html#earwax">Earwax Build-up</a></li>
+                    </ul>
+                </div>
+                <div class="tab-group">
+                    <h3>Nose & Sinuses</h3>
+                    <ul class="condition-links">
+                        <li><a href="adults.html#sinusitis">Sinusitis</a></li>
+                        <li><a href="adults.html#nasal-blockage">Nasal Blockage</a></li>
+                        <li><a href="adults.html#nosebleeds">Nosebleeds</a></li>
+                        <li><a href="children.html#adenoids">Adenoid Problems</a></li>
+                        <li><a href="adults.html#rhinitis">Allergic Rhinitis</a></li>
+                    </ul>
+                </div>
+                <div class="tab-group">
+                    <h3>Throat & Voice</h3>
+                    <ul class="condition-links">
+                        <li><a href="children.html#tonsillitis">Tonsillitis</a></li>
+                        <li><a href="adults.html#voice-problems">Voice Problems</a></li>
+                        <li><a href="adults.html#swallowing">Swallowing Difficulties</a></li>
+                        <li><a href="adults.html#snoring">Snoring & Sleep Apnoea</a></li>
+                        <li><a href="adults.html#neck-lumps">Neck Lumps</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- When to Seek Help -->
+    <section class="urgent-info section" id="when-to-seek-help">
+        <div class="container">
+            <h2 class="section-title">When to Seek Medical Help</h2>
+
+            <div class="urgent-cards">
+                <div class="urgent-card urgent-emergency">
+                    <h3>Seek Emergency Care (A&E / 999)</h3>
+                    <ul>
+                        <li>Difficulty breathing or noisy breathing at rest</li>
+                        <li>Unable to swallow saliva</li>
+                        <li>Severe bleeding from ear, nose or throat that won't stop</li>
+                        <li>Sudden severe swelling of the face, lips or throat</li>
+                        <li>Foreign object causing breathing difficulty</li>
+                    </ul>
+                </div>
+
+                <div class="urgent-card urgent-soon">
+                    <h3>See Your GP Soon</h3>
+                    <ul>
+                        <li>Hearing loss lasting more than a few days</li>
+                        <li>Persistent earache or ear discharge</li>
+                        <li>Hoarse voice lasting more than 3 weeks</li>
+                        <li>Unexplained neck lump</li>
+                        <li>Recurrent tonsillitis or sore throats</li>
+                        <li>Persistent nasal blockage on one side</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section (Condensed) -->
     <section class="about section" id="about">
         <div class="container">
             <h2 class="section-title">About Mrs Burgess</h2>
 
-            <div class="about-grid">
+            <div class="about-condensed">
                 <div class="about-image">
                     <img src="images/andrea-burgess.png" alt="Mrs Andrea Burgess, Consultant ENT Surgeon" class="profile-photo">
                 </div>
-
-                <div class="about-content">
-                    <h3>Professional Background</h3>
-                    <p>Mrs Andrea Burgess has 25 years of experience caring for patients of all ages. She holds dual NHS positions at Hampshire Hospitals NHS Foundation Trust and University Hospital Southampton NHS Foundation Trust.</p>
-                    <p>Having trained at Nottingham University Medical School, Mrs Burgess completed her specialist ENT training in London and Oxford before undertaking prestigious international fellowships.</p>
-
-                    <h3>International Fellowship Training</h3>
-                    <ul class="credentials-list">
-                        <li><strong>Otology Fellowship</strong> - Kresge Hearing Research Institute, University of Michigan, USA (2001-2002)</li>
-                        <li><strong>Paediatric and Head & Neck Fellowship</strong> - Royal Brisbane and Women's Hospital & Royal Children's Hospital, Queensland, Australia (2004-2005)</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="credentials-grid">
-                <div class="credential-card">
-                    <h4>Leadership Roles</h4>
-                    <ul>
-                        <li>Associate Medical Director of Clinical Strategy, Hampshire Hospitals NHS Trust</li>
-                        <li>Clinical Director of Head and Neck Surgery, Hampshire Hospitals NHS Trust</li>
-                        <li>Paediatric Airway Co-Lead, University Hospital Southampton NHS Trust</li>
-                        <li>Council Member, British Association of Paediatric Otolaryngologists</li>
-                        <li>Council Member, British Laryngology Association</li>
-                    </ul>
-                </div>
-
-                <div class="credential-card">
-                    <h4>Qualifications & Memberships</h4>
-                    <ul>
-                        <li>BMed Sci, BM BS, FRCS (ORL-HNS)</li>
-                        <li>GMC Number: 4041924</li>
-                        <li>Fellow of the Royal College of Surgeons</li>
-                        <li>Member of ENT UK</li>
-                        <li>Member of the Royal Society of Medicine</li>
-                    </ul>
-                </div>
-
-                <div class="credential-card">
-                    <h4>Publications & Awards</h4>
-                    <ul>
-                        <li>Co-author of <em>The Oxford Handbook of ENT and Head & Neck Surgery</em></li>
-                        <li>Dr Munro Prize for Innovation 2018 (for establishing the paediatric airway service)</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Specialities Section -->
-    <section class="specialities section" id="specialities">
-        <div class="container">
-            <h2 class="section-title">Specialities</h2>
-
-            <div class="subspecialties">
-                <h3>Main Subspecialty Interests</h3>
-                <div class="subspecialty-cards">
-                    <div class="subspecialty-card">
-                        <div class="subspecialty-icon" aria-hidden="true">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="12" cy="8" r="5"/>
-                                <path d="M20 21a8 8 0 1 0-16 0"/>
-                            </svg>
-                        </div>
-                        <h4>Paediatric ENT</h4>
-                        <p>Specialist care for children's ear, nose and throat conditions. As a mother of three, Mrs Burgess understands parental concerns and provides reassuring, child-friendly care.</p>
-                    </div>
-                    <div class="subspecialty-card">
-                        <div class="subspecialty-icon" aria-hidden="true">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
-                                <path d="M12 8v8M8 12h8"/>
-                            </svg>
-                        </div>
-                        <h4>Otology</h4>
-                        <p>Expert diagnosis and treatment of ear conditions, with specialist fellowship training from the renowned Kresge Hearing Research Institute.</p>
-                    </div>
-                    <div class="subspecialty-card">
-                        <div class="subspecialty-icon" aria-hidden="true">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
-                                <rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
-                            </svg>
-                        </div>
-                        <h4>General Adult ENT</h4>
-                        <p>Comprehensive ear, nose and throat care for adults, covering the full spectrum of ENT conditions.</p>
-                    </div>
-                </div>
-                <p class="achievement-note"><strong>Key Achievement:</strong> Co-founder of the Wessex Children's Airway Service</p>
-            </div>
-
-            <div class="conditions-treated">
-                <h3>Conditions Treated</h3>
-                <div class="conditions-grid">
-                    <div class="condition-category">
-                        <h4>Ear Problems</h4>
-                        <ul>
-                            <li>Hearing difficulties and deafness</li>
-                            <li>Ear infections</li>
-                            <li>Perforated eardrums</li>
-                            <li>Cholesteatoma</li>
-                            <li>Tinnitus (ringing in the ears)</li>
-                            <li>Balance disorders</li>
-                            <li>Ear wax and blockages</li>
-                        </ul>
-                    </div>
-                    <div class="condition-category">
-                        <h4>Nose & Sinus Problems</h4>
-                        <ul>
-                            <li>Nasal blockage and congestion</li>
-                            <li>Rhinitis and sinusitis</li>
-                            <li>Nosebleeds (epistaxis)</li>
-                            <li>Adenoid problems</li>
-                        </ul>
-                    </div>
-                    <div class="condition-category">
-                        <h4>Throat & Voice Problems</h4>
-                        <ul>
-                            <li>Tonsillitis</li>
-                            <li>Snoring and sleep apnoea</li>
-                            <li>Breathing difficulties</li>
-                            <li>Neck lumps</li>
-                            <li>Voice problems</li>
-                            <li>Swallowing difficulties</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Practice Locations Section -->
-    <section class="locations section" id="locations">
-        <div class="container">
-            <h2 class="section-title">Practice Locations</h2>
-
-            <div class="locations-grid">
-                <div class="location-card">
-                    <h3>Private Practice</h3>
-                    <div class="location-item">
-                        <h4>Spire Southampton Hospital</h4>
-                        <p>Chalybeate Close<br>Southampton</p>
-                    </div>
-                    <div class="location-item">
-                        <h4>Sarum Road Hospital</h4>
-                        <p>Circle Health Group<br>Winchester</p>
-                    </div>
-                </div>
-
-                <div class="location-card location-card-nhs">
-                    <h3>NHS Practice</h3>
-                    <div class="location-item">
-                        <h4>Royal Hampshire County Hospital</h4>
-                        <p>Hampshire Hospitals NHS Trust<br>Winchester</p>
-                    </div>
-                    <div class="location-item">
-                        <h4>University Hospital Southampton</h4>
-                        <p>UHS NHS Foundation Trust<br>Southampton</p>
-                    </div>
+                <div class="about-text">
+                    <p><strong>Mrs Andrea Burgess</strong> is a Consultant ENT Surgeon with 25 years of experience caring for patients of all ages. She holds NHS positions at Hampshire Hospitals NHS Trust and University Hospital Southampton NHS Trust.</p>
+                    <p>Mrs Burgess trained at Nottingham University Medical School and completed specialist fellowships in the USA and Australia. She is co-author of <em>The Oxford Handbook of ENT and Head & Neck Surgery</em> and co-founder of the Wessex Children's Airway Service.</p>
+                    <p class="credentials">BMed Sci, BM BS, FRCS (ORL-HNS) &bull; GMC: 4041924</p>
                 </div>
             </div>
         </div>
@@ -218,34 +186,33 @@
     <!-- Contact Section -->
     <section class="contact section" id="contact">
         <div class="container">
-            <h2 class="section-title">Contact</h2>
+            <h2 class="section-title">Private Appointments</h2>
 
             <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Private Enquiries</h3>
-                    <p>For private appointments and enquiries, please contact my secretary:</p>
+                <div class="contact-intro">
+                    <p>For private consultations with Mrs Burgess, please contact the relevant hospital secretary below.</p>
+                </div>
 
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <h4>Sarum Road Hospital, Winchester</h4>
-                            <p>Tracy Cousins: <a href="tel:07842520577">07842 520577</a></p>
-                            <p class="clinic-hours">Monday: 2:00 PM - 6:00 PM</p>
-                        </div>
-                        <div class="contact-item">
-                            <h4>Spire Southampton Hospital</h4>
-                            <p>Karen Healey: <a href="tel:02380764325">023 8076 4325</a></p>
-                            <p class="clinic-hours">Tuesday: 5:30 PM - 8:30 PM<br>Wednesday: 2:00 PM - 6:00 PM</p>
-                        </div>
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <h3>Sarum Road Hospital</h3>
+                        <p class="contact-location">Winchester</p>
+                        <p><strong>Tracy Cousins</strong></p>
+                        <p><a href="tel:07842520577" class="contact-phone">07842 520577</a></p>
+                        <p class="clinic-hours">Monday: 2:00 PM - 6:00 PM</p>
                     </div>
-
-                    <div class="insurance-info">
-                        <h4>Insurance & Payment</h4>
-                        <p>Private practice welcomes both insured and self-pay patients. All major UK health insurers are accepted.</p>
+                    <div class="contact-card">
+                        <h3>Spire Southampton Hospital</h3>
+                        <p class="contact-location">Southampton</p>
+                        <p><strong>Karen Healey</strong></p>
+                        <p><a href="tel:02380764325" class="contact-phone">023 8076 4325</a></p>
+                        <p class="clinic-hours">Tuesday: 5:30 PM - 8:30 PM<br>Wednesday: 2:00 PM - 6:00 PM</p>
                     </div>
                 </div>
 
-                <div class="contact-note">
-                    <p><strong>Please note:</strong> This website provides information about Mrs Burgess's private practice. For NHS referrals, please speak to your GP.</p>
+                <div class="insurance-note">
+                    <p>Both insured and self-pay patients are welcome. All major UK health insurers accepted.</p>
+                    <p><small>For NHS referrals, please speak to your GP.</small></p>
                 </div>
             </div>
         </div>
@@ -255,17 +222,12 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-info">
-                    <p><strong>Mrs Andrea Burgess</strong> BMed Sci, BM BS, FRCS (ORL-HNS)</p>
-                    <p>GMC Registration: 4041924</p>
-                </div>
-
                 <div class="footer-disclaimer">
-                    <p>The information on this website is for general information purposes only and does not constitute medical advice. Always consult a qualified healthcare professional for diagnosis and treatment.</p>
+                    <p><strong>Medical Disclaimer:</strong> The information on this website is for general guidance only and does not replace professional medical advice. Always consult a qualified healthcare professional for diagnosis and treatment of medical conditions.</p>
                 </div>
 
-                <div class="footer-links">
-                    <a href="#" class="footer-link">Privacy Policy</a>
+                <div class="footer-info">
+                    <p>Mrs Andrea Burgess &bull; BMed Sci, BM BS, FRCS (ORL-HNS) &bull; GMC: 4041924</p>
                 </div>
 
                 <div class="footer-copyright">
