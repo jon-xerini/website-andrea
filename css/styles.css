@@ -295,9 +295,19 @@ img {
 .hero {
     padding-top: calc(var(--header-height) + var(--spacing-3xl));
     padding-bottom: var(--spacing-3xl);
-    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    background: linear-gradient(135deg, rgba(26, 95, 122, 0.85) 0%, rgba(19, 74, 95, 0.9) 100%),
+                url('../images/hero-consultation.jpg');
+    background-size: cover;
+    background-position: center;
     color: var(--color-white);
     text-align: center;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.hero > .container {
+    width: 100%;
 }
 
 .hero-content {
